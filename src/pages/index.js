@@ -9,6 +9,8 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
+  //let featuredImgFluid = posts.frontmatter.thumbnail.childImageSharp.fluid
+
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
@@ -22,8 +24,6 @@ const BlogIndex = ({ data, location }) => {
       </Layout>
     )
   }
-
-  console.log(posts)
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -40,6 +40,14 @@ const BlogIndex = ({ data, location }) => {
                 itemScope
                 itemType="http://schema.org/Article"
               >
+                <img
+                  style={{
+                    width: "500px",
+                    height: "500px",
+                    objectFit: "cover",
+                  }}
+                  src={post.frontmatter.thumbnail.childImageSharp.fluid.base64}
+                />
                 <header>
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
@@ -84,6 +92,13 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          thumbnail {
+            childImageSharp {
+              fluid(maxWidth: 2000) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
