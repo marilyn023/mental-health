@@ -23,6 +23,8 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
+  console.log(posts)
+
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
