@@ -17,7 +17,6 @@ collections:
     editor:
       preview: true
     fields:
-      file: "static/posts.json"
       - {
           label: "Featured Image",
           name: "thumbnail",
