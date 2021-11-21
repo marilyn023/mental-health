@@ -1,11 +1,8 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const { fmImagesToRelative } = require("gatsby-remark-relative-images")
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
-
-  fmImagesToRelative(node)
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
