@@ -14,10 +14,10 @@ collections:
     media_folder: ""
     public_folder: ""
     path: "{{title}}/index"
-    file: "static/posts.json"
     editor:
       preview: true
     fields:
+      file: "static/posts.json"
       - {
           label: "Featured Image",
           name: "thumbnail",
