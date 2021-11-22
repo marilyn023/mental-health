@@ -4,6 +4,14 @@ title: Mental health with some different tips and advise
 date: 2021-11-21T13:03:50.835Z
 description: dwdad
 ---
+Here some song that will make yourself calm while listening
+
+
+
+<iframe src="https://open.spotify.com/embed/track/6sAn8zDfv8nIq3gdce7QNI?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+
 Firstly, a small digression. The easiest way to make a decision is to look back at history. Lets take a trip down nostalgia lane. Back in the early 2000’s there were two UI frameworks that JAVA had. One was **AWT**, which was a way to build UIs for multiple Operating systems while still maintaining the look and feel of the OS.\
 Each OS would have its own components which were mapped back to the AWT components created using the AWT framework.\
 Java then decided to come up with its own rendering component library called **Swing**. What Swing did was handle its own rendering instead\
@@ -74,7 +82,5 @@ All in all, as Flutter has a lot of the developer friendliness built into the fr
 ***Final decision:***Choose React Native if you want to utilize your existing developer skillsets. In the current scenario of the war for talent, this is truer than ever when you can’t always attract the best talent.
 
 Choose Flutter if you want to be mobile first and don’t mind developing twice one for mobile and one for the web.(for now) and you are not strapped for developers or cash. It is shaping up to be the choice of a singular frontend framework for the future.
-
-
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/sNs8-RBMqWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
