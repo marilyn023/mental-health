@@ -26,7 +26,7 @@ const Layout = ({ location, title, children }) => {
       className="container max-w-content mx-auto px-8  py-6 font-base"
       data-is-root-path={isRootPath}
     >
-      <Navbar />
+      <Navbar location={location.pathname} />
       <main>{children}</main>
       <Footer />
     </div>

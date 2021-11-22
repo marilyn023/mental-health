@@ -3,19 +3,26 @@ import Icon from "./Icon/Icons"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
-const NavbarItems = ({ list }) => {
+const NavbarItems = ({ list, locationPathname }) => {
+  //const [newList, setNewList] = useState([])
+
+  const filtered = locationPathname === "/blog" ? list.splice(0, 2) : list
+
   return (
     <>
-      {list.map(type => (
-        <a
-          href={type.path}
+      {filtered.map(type => (
+        <Link
+          to={type.path}
           key={type.id}
           className="cursor-pointer md:px-6 py-2 rounded-md text-black hover:text-gray-500 md:hover:bg-gray-100 flex"
         >
           <span>{type.title}</span>
-        </a>
+        </Link>
       ))}
-      <Link to="/login" className="md:ml-16">
+      <Link
+        to="https://isatu-mental-health.netlify.app/admin/"
+        className="md:ml-16"
+      >
         <button className="bg-primary px-10 py-2 rounded-md text-white hover:opacity-50">
           Login
         </button>
@@ -24,7 +31,7 @@ const NavbarItems = ({ list }) => {
   )
 }
 
-export default function Navbar() {
+export default function Navbar({ location }) {
   const [width, setWidth] = useState(false)
   const [isToggle, setIsToggle] = useState(false)
 
@@ -91,7 +98,7 @@ export default function Navbar() {
         } text-sm`}
       >
         {!width && !isToggle ? (
-          <NavbarItems list={list} />
+          <NavbarItems list={list} locationPathname={location} />
         ) : (
           <>{isToggle && <NavbarItems list={list} />}</>
         )}
@@ -104,3 +111,4 @@ export default function Navbar() {
     </section>
   )
 }
+

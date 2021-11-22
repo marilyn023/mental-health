@@ -17,7 +17,7 @@ const BlogPostTemplate = ({ data, location }) => {
         description={post.frontmatter.description || post.excerpt}
       />
       <article
-        className="blog-post"
+        className="blog-post max-w-3xl mx-auto my-20"
         itemScope
         itemType="http://schema.org/Article"
       >
@@ -105,3 +105,4 @@ export const pageQuery = graphql`
     }
   }
 `
+
