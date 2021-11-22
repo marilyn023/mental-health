@@ -42,14 +42,6 @@ const BlogIndex = ({ data, location }) => {
                 itemScope
                 itemType="http://schema.org/Article"
               >
-                {/* <StaticImage
-                  formats={["auto", "webp", "avif"]}
-                  src={post.frontmatter.thumbnail.childImageSharp.fluid.base64}
-                  width={50}
-                  height={50}
-                  quality={95}
-                  alt="Profile picture"
-                /> */}
                 <div
                   style={{
                     width: "500px",

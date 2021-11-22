@@ -58,7 +58,7 @@ export default function BlogCards() {
   return (
     <section className="my-32" id="story">
       <div className="mx-auto my-10 w-72 text-center">
-        <h1 className="font-bold text-4xl text-secondary">Stories</h1>
+        <span className="font-bold text-4xl text-secondary">Stories</span>
         <p className="opacity-40 my-1">
           Different stories and tips, guides on how to cope up depression
         </p>
@@ -73,7 +73,7 @@ export default function BlogCards() {
             }}
           >
             <div className="text-white text-gray-200 bg-gradient-to-t from-gray-900 w-full h-48 absolute bottom-0 rounded-b-lg px-4 py-14">
-              <h1 className="font-bold">{type.title}</h1>
+              <span className="font-bold">{type.title}</span>
               <p className="leading-5 text-sm truncate-text mt-1.5">
                 {type.paragraph}
               </p>
@@ -89,4 +89,3 @@ export default function BlogCards() {
     </section>
   )
 }
-
