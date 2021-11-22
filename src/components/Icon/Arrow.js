@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Arrow({ width, height, fill }) {
+function Arrow({ width, height, fill }) {
   return (
     <svg
       width={width}
@@ -18,3 +18,5 @@ export default function Arrow({ width, height, fill }) {
     </svg>
   )
 }
+
+export default Arrow

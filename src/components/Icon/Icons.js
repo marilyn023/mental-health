@@ -1,7 +1,7 @@
 import { Arrow, Menu, Facebook, Globe, Instagram, LinkedIn } from "."
 import React from "react"
 
-const Icons = ({ width, height, fill, name }) => {
+export default function Icons({ width, height, fill, name }) {
   function icons() {
     switch (name) {
       case "Arrow":
@@ -16,10 +16,10 @@ const Icons = ({ width, height, fill, name }) => {
         return <Instagram width={width} height={height} fill={fill} />
       case "LinkedIn":
         return <LinkedIn width={width} height={height} fill={fill} />
+      default:
+        return "Empty"
     }
   }
 
   return <div>{icons()}</div>
 }
-
-export default Icons

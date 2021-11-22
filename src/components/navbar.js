@@ -104,8 +104,11 @@ export default function Navbar({ location }) {
         )}
       </nav>
       <div
+        role="button"
+        tabIndex={0}
         className={`${width ? "block" : "hidden"} cursor-pointer text-right`}
         onClick={onToggle}
+        onKeyDown={onToggle}
       >
         <Icon name="Menu" width="20" height="20" fill="black" />
       </div>

@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Facebook({ width, height, fill }) {
+function Globe({ width, height, fill }) {
   return (
     <svg
       width={width}
@@ -33,3 +33,5 @@ export default function Facebook({ width, height, fill }) {
     </svg>
   )
 }
+
+export default Globe
