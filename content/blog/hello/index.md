@@ -6,12 +6,6 @@ description: dwdad
 ---
 Here some song that will make yourself calm while listening
 
-
-
-<iframe src="https://open.spotify.com/embed/track/6sAn8zDfv8nIq3gdce7QNI?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-
-
 Firstly, a small digression. The easiest way to make a decision is to look back at history. Lets take a trip down nostalgia lane. Back in the early 2000’s there were two UI frameworks that JAVA had. One was **AWT**, which was a way to build UIs for multiple Operating systems while still maintaining the look and feel of the OS.\
 Each OS would have its own components which were mapped back to the AWT components created using the AWT framework.\
 Java then decided to come up with its own rendering component library called **Swing**. What Swing did was handle its own rendering instead\
