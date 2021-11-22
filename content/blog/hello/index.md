@@ -1,6 +1,6 @@
 ---
 thumbnail: minimalist-wallpaper.jpg
-title: hello
+title: Mental health with some different tips and advise
 date: 2021-11-21T13:03:50.835Z
 description: dwdad
 ---
