@@ -103,12 +103,12 @@ export default function Navbar({ location }) {
           <>{isToggle && <NavbarItems list={list} />}</>
         )}
       </nav>
-      {width && (
-        <div className="cursor-pointer text-right" onClick={onToggle}>
-          <Icon name="Menu" width="20" height="20" fill="black" />
-        </div>
-      )}
+      <div
+        className={`${width ? "block" : "hidden"} cursor-pointer text-right`}
+        onClick={onToggle}
+      >
+        <Icon name="Menu" width="20" height="20" fill="black" />
+      </div>
     </section>
   )
 }
-

@@ -55,19 +55,12 @@ const BlogIndex = ({ data, location }) => {
                     backgroundRepeat: "no-repeat",
                   }}
                 />
-                <section className="p-2">
-                  <header className="truncate-title">
-                    <h2>
-                      <div>
-                        <span
-                          itemProp="headline"
-                          className=" text-2xl font-bold"
-                        >
-                          {title}
-                        </span>
-                      </div>
-                    </h2>
-                  </header>
+                <section className="py-4 px-6">
+                  <div className="truncate-title">
+                    <div>
+                      <span className="text-2xl font-bold m-0">{title}</span>
+                    </div>
+                  </div>
                   <section>
                     <p
                       className="truncate-title"

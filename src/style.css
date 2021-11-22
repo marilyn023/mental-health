@@ -65,7 +65,7 @@ html {
   --fontWeight-semibold: 600;
   --fontWeight-bold: 700;
   --fontWeight-extrabold: 800;
-  --fontWeight-black: 900;
+  --fontWeight-black: 600;
   --fontSize-root: 16px;
   --lineHeight-none: 1;
   --lineHeight-tight: 1.1;
@@ -127,7 +127,6 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
-  margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
   letter-spacing: -0.025em;
@@ -356,4 +355,3 @@ a:focus {
     list-style-position: inside;
   }
 }
-
