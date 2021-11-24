@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { BlogLanding } from "../components"
+import { BlogLanding, BlogArticles } from "../components"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -54,7 +54,7 @@ const BlogIndex = ({ data, location }) => {
           <BlogNewPost posts={posts} />
         </ArticleWrapper>
         <ArticleWrapper title="ARTICLES">
-          <BlogNewPost posts={posts} />
+          <BlogArticles posts={posts} />
         </ArticleWrapper>
       </section>
     </Layout>

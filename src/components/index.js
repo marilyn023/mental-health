@@ -1,6 +1,7 @@
 export { default as BlogPage } from "./blogPage"
 export { default as Navbar } from "./navbar"
 export { default as LandingPage } from "./LandingPage"
+export { default as BlogArticles } from "./BlogArticles"
 export { default as BlogNewPost } from "./BlogNewPost"
 export { default as LearnMore } from "./LearnMore"
 export { default as Statistics } from "./Statistics"
