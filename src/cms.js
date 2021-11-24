@@ -7,7 +7,7 @@ CMS.registerEditorComponent({
     {
       name: "url",
       label: "Youtube video URL",
-      widget: youtube,
+      widget: "youtube",
     },
   ],
   pattern: /^`youtube:\s(.*)`$/,
