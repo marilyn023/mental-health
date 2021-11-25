@@ -23,7 +23,7 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div
-      className="container max-w-content mx-auto px-8  py-6 font-base"
+      className="container max-w-content mx-auto px-8  py-6 font-sans"
       data-is-root-path={isRootPath}
     >
       <Navbar location={location.pathname} />

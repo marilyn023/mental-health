@@ -1,5 +1,6 @@
 export { default as BlogPage } from "./blogPage"
 export { default as Navbar } from "./navbar"
+export { default as Modal } from "./Modal"
 export { default as LandingPage } from "./LandingPage"
 export { default as BlogArticles } from "./BlogArticles"
 export { default as BlogNewPost } from "./BlogNewPost"

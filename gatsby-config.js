@@ -3,7 +3,7 @@ module.exports = {
     title: `Gatsby Starter Blog`,
     author: {
       name: `Management`,
-      summary: `The management is part of ISATU(Iloilo Science ang Technology University) who are eager to help people in their mental health`,
+      summary: `, this is part of ISATU(Iloilo Science ang Technology University) who are eager to help people in their mental health`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,

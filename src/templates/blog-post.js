@@ -4,72 +4,143 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Drawer } from "antd"
+
+//import { Modal } from "../components"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
 
+  const [toggle, setToggle] = React.useState(false)
+
+  const openDrawer = () => setToggle(true)
+  const closeDrawer = () => setToggle(false)
+
+  const playlist = [
+    {
+      id: 1,
+      url: "https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM?utm_source=generator",
+    },
+    {
+      id: 2,
+      url: "https://open.spotify.com/embed/artist/0oaP0FzHSRg7Dbx2ehVxSF?utm_source=generator&theme=0",
+    },
+    {
+      id: 3,
+      url: "https://open.spotify.com/embed/artist/0Ol1mhlclpCQlBUF8OPZW0?utm_source=generator&theme=0",
+    },
+    {
+      id: 4,
+      url: "https://open.spotify.com/embed/playlist/2YC6RDAdPt3J4yD2aJMtjt?utm_source=generator",
+    },
+    {
+      id: 5,
+      url: "https://open.spotify.com/embed/playlist/4VN7J0uq62foOhZndwOegy?utm_source=generator",
+    },
+    {
+      id: 6,
+      url: "https://open.spotify.com/embed/playlist/35xI4hSJ8MdO1xkXwsd56a?utm_source=generator",
+    },
+    {
+      id: 7,
+      url: "https://open.spotify.com/embed/playlist/4x9OtLt7bsmvqktbF0Y0Gm?utm_source=generator&theme=0",
+    },
+  ]
+
   return (
-    <Layout location={location} title={siteTitle}>
-      <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-      />
-      <article
-        className="blog-post max-w-3xl mx-auto my-20"
-        itemScope
-        itemType="http://schema.org/Article"
+    <>
+      {/* <Modal /> */}
+      <Drawer
+        visible={toggle}
+        onClose={closeDrawer}
+        title="Music Section"
+        placement="right"
       >
-        <div
-          className="h-96 mb-10 w-full"
-          style={{
-            backgroundSize: "cover",
-            backgroundImage: `url(${post.frontmatter.thumbnail.childImageSharp.fluid.src})`,
-            backgroundRepeat: "no-repeat",
-          }}
+        <h1 className="text-xl font-bold text-blue-500">Play some music</h1>
+        <p>music helps our mind to focus and understand what we are reading</p>
+        {playlist.map(list => (
+          <iframe
+            key={list.id}
+            className="rounded-lg mt-4"
+            src={list.url}
+            width="100%"
+            height="80"
+            frameBorder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          ></iframe>
+        ))}
+      </Drawer>
+      <Layout location={location} title={siteTitle}>
+        <Seo
+          title={post.frontmatter.title}
+          description={post.frontmatter.description || post.excerpt}
         />
-        <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
-        </header>
-        <hr className="my-5" />
-        <section
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          itemProp="articleBody"
-        />
-        <hr />
-        <footer>
-          <Bio />
-        </footer>
-        <nav className="blog-post-nav">
-          <ul
+        <article
+          className="blog-post max-w-3xl mx-auto my-20"
+          itemScope
+          itemType="http://schema.org/Article"
+        >
+          <div
+            className="h-96 mb-10 w-full"
             style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
+              backgroundSize: "cover",
+              backgroundImage: `url(${post.frontmatter.thumbnail.childImageSharp.fluid.src})`,
+              backgroundRepeat: "no-repeat",
             }}
-          >
-            <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
-        </nav>
-      </article>
-    </Layout>
+          />
+          <header>
+            <h1 itemProp="headline">{post.frontmatter.title}</h1>
+            <div className="flex items-center justify-between">
+              <p>{post.frontmatter.date}</p>
+              <button
+                onClick={openDrawer}
+                className="bg-primary px-5 py-2 text-sm rounded-lg text-white font-bold"
+              >
+                Add some beats!
+              </button>
+            </div>
+          </header>
+          <hr className="my-5" />
+          <section
+            dangerouslySetInnerHTML={{ __html: post.html }}
+            itemProp="articleBody"
+          />
+          <hr />
+          <footer>
+            <Bio />
+          </footer>
+          <nav className="blog-post-nav">
+            <ul
+              style={{
+                display: `flex`,
+                flexWrap: `wrap`,
+                justifyContent: `space-between`,
+                listStyle: `none`,
+                padding: 0,
+              }}
+            >
+              <li>
+                {previous && (
+                  <Link to={previous.fields.slug} rel="prev">
+                    ← {previous.frontmatter.title}
+                  </Link>
+                )}
+              </li>
+              <li>
+                {next && (
+                  <Link to={next.fields.slug} rel="next">
+                    {next.frontmatter.title} →
+                  </Link>
+                )}
+              </li>
+            </ul>
+          </nav>
+        </article>
+      </Layout>
+    </>
   )
 }
 
