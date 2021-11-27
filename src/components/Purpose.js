@@ -32,7 +32,7 @@ export default function Purpose() {
           their own testimony on how they cope up their situation
         </div>
         <div className="flex justify-center md:justify-start">
-          <LearnMore buttonName="Get started" />
+          <LearnMore buttonName="Get started" url="/blog" />
         </div>
       </div>
       <div className="w-full flex items-center flex-col md:flex-row justify-center gap-10 my-10">

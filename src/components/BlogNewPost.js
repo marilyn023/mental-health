@@ -25,14 +25,16 @@ export default function BlogNewPost({ posts }) {
   const dateToday = Months[months] + " " + day + ", " + year
 
   const newPosts = posts.filter(obj => {
-    return dateToday === obj.frontmatter.daye
+    return dateToday === obj.frontmatter.date
   })
+
+  console.log(newPosts)
 
   return (
     <>
       {newPosts.length > 0 ? (
         <ol className="list-none gap-4 mt-8 grid grid-cols-1 lg:grid-cols-2 gap-10">
-          {posts.map(post => {
+          {newPosts.map(post => {
             const title = post.frontmatter.title || post.fields.slug
 
             //console.log(dateToday, post.frontmatter.date)

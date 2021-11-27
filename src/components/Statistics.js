@@ -30,7 +30,10 @@ export default function Statistics() {
           pesticide, hanging and firearms are among the most common methods of
           suicide globally.
         </p>
-        <LearnMore buttonName={title} />
+        <LearnMore
+          buttonName={title}
+          url="https://isatu-mental-health.netlify.app/hello-new-post-for-today-about-mental-illness/"
+        />
       </div>
     </section>
   )

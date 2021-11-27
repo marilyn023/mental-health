@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Sample1 from "../images/sample1.jpg"
 import Sample2 from "../images/sample2.jpg"
 import Sample3 from "../images/sample3.jpg"
@@ -82,9 +83,12 @@ export default function BlogCards() {
         ))}
       </div>
       <div className="my-16 text-center">
-        <button className="bg-primary px-8 py-2 rounded-md text-white hover:opacity-50">
+        <Link
+          to="/blog"
+          className="bg-primary px-8 py-2 rounded-md text-white hover:text-white hover:opacity-50"
+        >
           Explore more
-        </button>
+        </Link>
       </div>
     </section>
   )
