@@ -12,7 +12,7 @@ import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  //const posts = data.allMarkdownRemark.nodes
+  const posts = data.allMarkdownRemark.nodes
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -20,7 +20,7 @@ const BlogIndex = ({ data, location }) => {
       <LandingPage />
       <Statistics />
       <Purpose />
-      <BlogCards />
+      <BlogCards posts={posts} />
       <Contact />
     </Layout>
   )
@@ -40,6 +40,18 @@ export const pageQuery = graphql`
         excerpt
         fields {
           slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          description
+          thumbnail {
+            childImageSharp {
+              fluid(maxWidth: 2000) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

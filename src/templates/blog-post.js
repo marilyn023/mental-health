@@ -22,31 +22,31 @@ const BlogPostTemplate = ({ data, location }) => {
   const playlist = [
     {
       id: 1,
-      url: "https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM?utm_source=generator",
+      url: "embed/playlist/0vvXsWCC9xrXsKd4FyS8kM?utm_source=generator",
     },
     {
       id: 2,
-      url: "https://open.spotify.com/embed/artist/0oaP0FzHSRg7Dbx2ehVxSF?utm_source=generator&theme=0",
+      url: "embed/artist/0oaP0FzHSRg7Dbx2ehVxSF?utm_source=generator&theme=0",
     },
     {
       id: 3,
-      url: "https://open.spotify.com/embed/artist/0Ol1mhlclpCQlBUF8OPZW0?utm_source=generator&theme=0",
+      url: "artist/0Ol1mhlclpCQlBUF8OPZW0?utm_source=generator&theme=0",
     },
     {
       id: 4,
-      url: "https://open.spotify.com/embed/playlist/2YC6RDAdPt3J4yD2aJMtjt?utm_source=generator",
+      url: "embed/playlist/2YC6RDAdPt3J4yD2aJMtjt?utm_source=generator",
     },
     {
       id: 5,
-      url: "https://open.spotify.com/embed/playlist/4VN7J0uq62foOhZndwOegy?utm_source=generator",
+      url: "embed/playlist/4VN7J0uq62foOhZndwOegy?utm_source=generator",
     },
     {
       id: 6,
-      url: "https://open.spotify.com/embed/playlist/35xI4hSJ8MdO1xkXwsd56a?utm_source=generator",
+      url: "embed/playlist/35xI4hSJ8MdO1xkXwsd56a?utm_source=generator",
     },
     {
       id: 7,
-      url: "https://open.spotify.com/embed/playlist/4x9OtLt7bsmvqktbF0Y0Gm?utm_source=generator&theme=0",
+      url: "embed/playlist/4x9OtLt7bsmvqktbF0Y0Gm?utm_source=generator&theme=0",
     },
   ]
 
@@ -69,8 +69,9 @@ const BlogPostTemplate = ({ data, location }) => {
         {playlist.map(list => (
           <iframe
             key={list.id}
+            title={list.url}
             className="rounded-lg mt-4"
-            src={list.url}
+            src={`https://open.spotify.com/${list.url}`}
             width="100%"
             height="80"
             frameBorder="0"
@@ -111,6 +112,7 @@ const BlogPostTemplate = ({ data, location }) => {
           </header>
           <hr className="my-5" />
           <section
+            className="text-lg"
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"
           />

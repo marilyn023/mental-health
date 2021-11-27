@@ -1,61 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import Sample1 from "../images/sample1.jpg"
-import Sample2 from "../images/sample2.jpg"
-import Sample3 from "../images/sample3.jpg"
 
-export default function BlogCards() {
-  const blogContent = [
-    {
-      id: 1,
-      image: Sample1,
-      title: "Coping with depression",
-      paragraph: `Ways to cop up with depression is to do something that your mind
-      will busy dawihd aowhd aowdh oawh doahw doah doh dawhd oawhd awoh
-      daoiw hdiawhd oawhd oawhd`,
-    },
-    {
-      id: 2,
-      image: Sample2,
-      title: "Stress reliever",
-      paragraph: `Ways to cop up with depression is to do something that your mind
-      will busy dawihd aowhd aowdh oawh doahw doah doh dawhd oawhd awoh
-      daoiw hdiawhd oawhd oawhd`,
-    },
-    {
-      id: 3,
-      image: Sample3,
-      title: "Stress reliever",
-      paragraph: `Ways to cop up with depression is to do something that your mind
-      will busy dawihd aowhd aowdh oawh doahw doah doh dawhd oawhd awoh
-      daoiw hdiawhd oawhd oawhd`,
-    },
-    {
-      id: 4,
-      image: Sample1,
-      title: "Stress reliever",
-      paragraph: `Ways to cop up with depression is to do something that your mind
-      will busy dawihd aowhd aowdh oawh doahw doah doh dawhd oawhd awoh
-      daoiw hdiawhd oawhd oawhd`,
-    },
-    {
-      id: 5,
-      image: Sample2,
-      title: "Stress reliever",
-      paragraph: `Ways to cop up with depression is to do something that your mind
-      will busy dawihd aowhd aowdh oawh doahw doah doh dawhd oawhd awoh
-      daoiw hdiawhd oawhd oawhd`,
-    },
-    {
-      id: 6,
-      image: Sample3,
-      title: "Stress reliever",
-      paragraph: `Ways to cop up with depression is to do something that your mind
-      will busy dawihd aowhd aowdh oawh doahw doah doh dawhd oawhd awoh
-      daoiw hdiawhd oawhd oawhd`,
-    },
-  ]
-
+export default function BlogCards({ posts }) {
   return (
     <section className="my-32" id="story">
       <div className="mx-auto my-10 w-72 text-center">
@@ -65,21 +11,25 @@ export default function BlogCards() {
         </p>
       </div>
       <div className="overflow-hidden grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10">
-        {blogContent.map(type => (
-          <div
-            key={type.id}
+        {posts.map(type => (
+          <Link
+            to={type.fields.slug}
+            itemProp="url"
+            key={type.fields.slug}
             className="relative cursor-pointer transition-all transform hover:translate-y-2 h-96 w-full shadow-lg rounded-lg bg-no-repeat bg-cover"
             style={{
-              backgroundImage: `url("${type.image}")`,
+              backgroundImage: `url("${type.frontmatter.thumbnail.childImageSharp.fluid.src}")`,
             }}
           >
             <div className="text-white text-gray-200 bg-gradient-to-t from-gray-900 w-full h-48 absolute bottom-0 rounded-b-lg px-4 py-14">
-              <span className="font-bold">{type.title}</span>
+              <p className="font-bold truncate-header">
+                {type.frontmatter.title || type.fields.slug}
+              </p>
               <p className="leading-5 text-sm truncate-text mt-1.5">
-                {type.paragraph}
+                {type.excerpt}
               </p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
       <div className="my-16 text-center">
