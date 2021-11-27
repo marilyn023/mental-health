@@ -2,7 +2,9 @@
 thumbnail: how-to-cope-with-anxiety-and-depression-722x406.jpg
 title: Teens at risk for suicide during the pandemic
 date: 2021-11-24T13:44:25.202Z
-description: dawdawdad
+description: Most teenagers have experienced some degree of stress during this
+  pandemic — whether it’s missing friends, or more serious stressors like a
+  parent losing a job, someone getting sick or an unstable home life.
 ---
 Most teenagers have experienced some degree of stress during this pandemic — whether it’s missing friends, or more serious stressors like a parent losing a job, someone getting sick or an unstable home life.
 
