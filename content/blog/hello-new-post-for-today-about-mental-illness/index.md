@@ -56,6 +56,9 @@ In addition to parental support, feeling connected to others and support from th
 
 Both in-person and virtual counseling is available, and can help teens struggling with suicidal thoughts and behavior, particularly during a crisis like the COVID-19 pandemic.
 
-
+1. a
+2. a
+3. a
+4.
 
 <iframe width="1350" height="480" src="https://www.youtube.com/embed/84r_HVs2vA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
