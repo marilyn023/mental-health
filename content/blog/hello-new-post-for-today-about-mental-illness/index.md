@@ -18,18 +18,29 @@ The risk increases during a crisis like the COVID-19 pandemic, when teens may be
 
 Suicidal thoughts or actions are a sign of extreme distress and should not be ignored. Many of the warning signs of suicide are also symptoms of depression. Be on the lookout for:
 
-* Any changes in eating or sleeping habits
-* Isolating, emotional or social withdrawal
-* Irritability, mood swings, hopelessness
-* Statements of “I am a burden”
-* Questioning the purpose of their life
-* Lack of interest in usual activities
-* Acting out behaviors, running away
-* Anger, rage, agitation
-* Alcohol and drug use, other risky activities
-* Neglecting their personal appearance
-* Obsession with death and dying
-* Lack of response to praise
+Any changes in eating or sleeping habits
+
+\- Isolating, emotional or social withdrawal
+
+\- Irritability, mood swings, hopelessness
+
+\- Statements of “I am a burden”
+
+\- Questioning the purpose of their life
+
+\- Lack of interest in usual activities
+
+\- Acting out behaviors, running away
+
+\- Anger, rage, agitation
+
+\- Alcohol and drug use, other risky activities
+
+\- Neglecting their personal appearance
+
+\- Obsession with death and dying
+
+\- Lack of response to praise
 
 Parents know their kids better than anyone else. Pay attention to changes in behavior and trust your gut. If anything seems off, don’t wait. Seek help immediately.
 
@@ -41,24 +52,30 @@ A common experience and emotion of teenagers is that life is difficult and that 
 
 Here are 10 steps parents can take to protect their teen:
 
-1. Restrict access to dangerous or potentially life-threatening items in the home (e.g., firearms, knives, harmful substances).
-2. Closely supervise teens with a history of suicide attempts or self-injuries.
-3. Limit time spent alone to prevent opportunities to engage in self-harm.
-4. Set limits on screen time and monitor your teen’s phone calls, texts and social media use for bullying or self-harm exposure.
-5. Try to keep conflict at home low. Make sure your teen feels comfortable coming to you for help.
-6. Frequently check in with your teen to see how he/she is feeling.
-7. Ask your teen what their friends are saying. This can help you gauge their own thoughts.
-8. Acknowledge the reality of the pandemic but reassure your teen that it’s temporary.
-9. Help your teen understand that they aren’t alone and that life will get better.
-10. Treat any talk of self-harm or suicide seriously. Call 911 or go to the emergency room if your teen cannot be kept safe in the home.
+\- Restrict access to dangerous or potentially life-threatening items in the home (e.g.,     firearms, knives, harmful substances).
+
+\- Closely supervise teens with a history of suicide attempts or self-injuries.
+
+\- Limit time spent alone to prevent opportunities to engage in self-harm.
+
+\- Set limits on screen time and monitor your teen’s phone calls, texts and social media use for bullying or self-harm exposure.
+
+\- Try to keep conflict at home low. Make sure your teen feels comfortable coming to you for help.
+
+\- Frequently check in with your teen to see how he/she is feeling.
+
+\- Ask your teen what their friends are saying. This can help you gauge their own thoughts.
+
+\- Acknowledge the reality of the pandemic but reassure your teen that it’s temporary.
+
+\- Help your teen understand that they aren’t alone and that life will get better.
+
+\- Treat any talk of self-harm or suicide seriously. Call 911 or go to the emergency room if your teen cannot be kept safe in the home.
 
 In addition to parental support, feeling connected to others and support from the community can help protect against suicidal thoughts and behaviors in teens. Having a strong relationship with a therapist is a protective factor as well.
 
 Both in-person and virtual counseling is available, and can help teens struggling with suicidal thoughts and behavior, particularly during a crisis like the COVID-19 pandemic.
 
-1. a
-2. a
-3. a
-4.
+
 
 <iframe width="1350" height="480" src="https://www.youtube.com/embed/84r_HVs2vA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
