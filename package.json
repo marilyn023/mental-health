@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "antd": "^4.17.1",
+    "disqus-react": "^1.1.2",
     "gatsby": "^4.2.0",
     "gatsby-plugin-feed": "^4.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.2.0",

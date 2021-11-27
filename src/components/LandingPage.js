@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function LandingPage() {
@@ -18,12 +19,12 @@ export default function LandingPage() {
           </span>
         </div>
         <div className="my-8 flex items-center justify-center sm:justify-start gap-5">
-          <button className="bg-primary px-8 py-2 rounded-md text-white hover:opacity-50">
-            Get started
-          </button>
-          <button className="border border-primary hover:border-opacity-50 text-primary hover:text-opacity-50 px-8 py-2 rounded-md">
-            Explore
-          </button>
+          <Link
+            to="/blog"
+            className="bg-primary px-8 py-2 rounded-md text-white hover:text-white hover:opacity-50"
+          >
+            Start reading
+          </Link>
         </div>
       </header>
       <div className="w-full lg:w-1/2">

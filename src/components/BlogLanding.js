@@ -19,9 +19,9 @@ export default function BlogLanding() {
         <div className="my-8 flex items-center justify-center sm:justify-start gap-5">
           <a
             href="#articles"
-            className="bg-primary px-8 py-2 rounded-md text-white hover:opacity-50"
+            className="bg-primary px-8 py-2 rounded-md text-white hover:text-white hover:opacity-50"
           >
-            Start reading
+            Articles
           </a>
         </div>
       </header>

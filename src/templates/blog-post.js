@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Drawer } from "antd"
+import { DiscussionEmbed } from "disqus-react"
 
 //import { Modal } from "../components"
 
@@ -48,6 +49,11 @@ const BlogPostTemplate = ({ data, location }) => {
       url: "https://open.spotify.com/embed/playlist/4x9OtLt7bsmvqktbF0Y0Gm?utm_source=generator&theme=0",
     },
   ]
+
+  const disqusConfig = {
+    shortname: "mental-health-9",
+    config: { identifier: post.id, siteTitle },
+  }
 
   return (
     <>
@@ -109,9 +115,13 @@ const BlogPostTemplate = ({ data, location }) => {
             itemProp="articleBody"
           />
           <hr />
+
+          <DiscussionEmbed {...disqusConfig} />
+
           <footer>
             <Bio />
           </footer>
+
           <nav className="blog-post-nav">
             <ul
               style={{
