@@ -4,8 +4,10 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Modal } from "../components"
 import { Drawer } from "antd"
 import { DiscussionEmbed } from "disqus-react"
+import useToggle from "../hooks/useToggle"
 
 //import { Modal } from "../components"
 
@@ -14,10 +16,15 @@ const BlogPostTemplate = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
 
-  const [toggle, setToggle] = React.useState(false)
+  const [toggle, setToggle] = useToggle()
+  const [toggleFeedback, setToggleFeedback] = useToggle()
 
   const openDrawer = () => setToggle(true)
   const closeDrawer = () => setToggle(false)
+
+  const openFeedback = () => setToggleFeedback(state => !state)
+
+  console.log(toggleFeedback)
 
   const playlist = [
     {
@@ -57,7 +64,7 @@ const BlogPostTemplate = ({ data, location }) => {
 
   return (
     <>
-      {/* <Modal /> */}
+      {toggleFeedback && <Modal id={post.id} openFeedback={openFeedback}/>}
       <Drawer
         visible={toggle}
         onClose={closeDrawer}
@@ -116,6 +123,12 @@ const BlogPostTemplate = ({ data, location }) => {
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"
           />
+          <button
+            onClick={openFeedback}
+            className="bg-primary hover:opacity-80 rounded-lg py-2 w-full text-center text-white font-bold my-4"
+          >
+            Feedback
+          </button>
           <hr />
 
           <DiscussionEmbed {...disqusConfig} />
