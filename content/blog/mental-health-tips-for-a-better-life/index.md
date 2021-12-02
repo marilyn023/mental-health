@@ -41,3 +41,15 @@ Exercise is not only good for our physical health, it can have a profound, posit
 Make a commitment to moving more and to balancing that with good food choices and the occasional indulgence. Find a type of exercise that you enjoy and start small. This short video from sports medicine program includes several great ideas for squeezing exercise into your day, even while working from home . The Centers for Disease control and prevention (CDC) recommends 150 minutes of physical exercise weekly for greatest health benefits. 
 
 > Calculate how much exercise you get each week now and set a goal to add 5-10 minutes per week if you are short. You can use a fitness tracking app to log your activity, so you know when you reach your goal
+
+
+
+## Step 5 Explore meditation, art or other calming activities
+
+> Mindfulness meditation can be great for many people, but some patients refer other methods - Drake said
+
+There are many forms of meditation - including one specifically for fidgety folks - so be open to different strategies until you find what  it works for you! I know of one patient who found painting very calming - it even helped ease her chronic pain
+
+> Meditation works great for some people and would probably benefit most if they took the time to do it - Suo said
+
+There are lots of apps that can help, including this free one from UCLA. Suo also recommend
