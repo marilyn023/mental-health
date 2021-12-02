@@ -64,7 +64,7 @@ const BlogPostTemplate = ({ data, location }) => {
 
   return (
     <>
-      {toggleFeedback && <Modal id={post.id} openFeedback={openFeedback}/>}
+      {toggleFeedback && <Modal id={post.id} openFeedback={openFeedback} />}
       <Drawer
         visible={toggle}
         onClose={closeDrawer}

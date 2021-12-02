@@ -4,6 +4,7 @@ title: Don’t Feel Bad for Wanting to Spend The Holidays Alone
 date: 2021-11-27T14:07:44.449Z
 description: You are not alone
 ---
+
 I didn’t want to go home.
 
 The trips were miserable. If I wasn’t scrubbing my mom’s bodily fluids out of the carpet, I was enduring my dad’s judgment. If I said hi, he responded by commenting openly on my hair, my clothes, and of course my *body*. It wasn’t unusual to spend an afternoon in the ER.
@@ -88,7 +89,7 @@ He doesn’t insult me anymore.
 
 He learned a valuable lesson, that you can’t assume family will stick around just *because*. You can’t rely on cultural conditioning. After a certain point, someone does prefer to be alone on the holidays. They’ll endure the stigma, because it frees them.
 
-*The world is filled with people who put up with abuse and neglect simply because they fear being alone, because we learn to see solitude as a disease. It’s not. Solitude can be independence.*
+_The world is filled with people who put up with abuse and neglect simply because they fear being alone, because we learn to see solitude as a disease. It’s not. Solitude can be independence._
 
 Since then, I’ve married into a big family. I’ve got in-laws I actually look forward to seeing over the holidays. Still, my favorite times are when I can escape to be off by myself.
 
