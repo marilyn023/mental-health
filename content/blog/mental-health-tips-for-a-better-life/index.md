@@ -156,11 +156,15 @@ You might not consider yourself addicted to social media or your smartphone and 
 
 
 
+
+
 ## Step 19 Volunteer 
 
 The meaning and purpose derived from helping others or the community can enrich and expand your life - and make you happier. There's no limit to the individual and group volunteer opportunities you can explore. Schools, places of worship, nonprofits, and charitable organizations of all sorts **depend on volunteers for help in any capacity**
 
 ![](volunteer.png)
+
+
 
 
 
@@ -180,9 +184,10 @@ This list included a few small but impactful ways to improve your mental health 
 [https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/](*https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/*)*
 
 *
-[https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/
-https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/](<*https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/
-https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/*>)*
+[https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/](*https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/*)*
+
+*
+[https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/](*https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/*)*
 
 
 
