@@ -144,13 +144,13 @@ Try reducing your amount of technology use and media consumption on daily basis
 
 You might not consider yourself addicted to social media or your smartphone and other devices, but it is often much more difficult to limit or reduce media consumption and technology use than you'd expect. The impacts of excessive and prolonged social media consumption can be harmful. Even over-consumption of news can negatively impact your mental well being. There's no need to cut it out completely from your life and go cold turkey. But try limiting when or how you use it. Here are some specific pieces of advices to help you with this tip :
 
-> 1. Keep your phone out of your bedroom so it''s not the last thing you check before going to sleep or the first thing you look at in the morning
+> \- Keep your phone out of your bedroom so it''s not the last thing you check before going to sleep or the first thing you look at in the morning
 >
-> 2. Don't use your phone half an hour before bed or for the first half an hour from walking
+> \- Don't use your phone half an hour before bed or for the first half an hour from walking
 >
-> 3. Put your phone down on another table during meal times where  you can't reach it
+> \- Put your phone down on another table during meal times where  you can't reach it
 >
-> 4. Try challenging yourself by going a whole day without checking social media
+> \- Try challenging yourself by going a whole day without checking social media
 
 ![](media.png)
 
