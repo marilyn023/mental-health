@@ -94,10 +94,6 @@ Channeling time and energy into a new - or newly rediscovered - hobby can be an 
 
 ![](picture7.png)
 
-![]()
-
-
-
 ## Step 10 Don't put off seeking help
 
 This is most important of all. Seek help if you are struggling. Telehealth appointments are safe and can be very effective. "We have evidence that the increased isolation of the panemic is leading to more people using substances and delaying" Seeking help - Suo said "Don't delay. There is hope and there are professionals who can help you through this"
@@ -112,6 +108,84 @@ This is most important of all. Seek help if you are struggling. Telehealth appoi
 
 Eating well isn't just important for our bodies, but its also important for our minds. Certain mineral deficiencies, such as iron and vitamin B12 deficiences, can give us a low mood. Try to eat a balanced diet. If you find you're a  particularly stressed or anxious person, you should try limiting or cutting our caffeine as this can make you feel jittery and anxious
 
-
-
 ![](picture9.png)
+
+
+
+## Step 12 Get Plenty of Sunlight
+
+Sunlight is a great source of vitamin D. Vitamin D is a really important vitamin for ou bodies and our brains. It helps our brains to release chemicals which improve our mood, like endorphins and serotonin. Try to go out in the sun when you can, but make sure you keep your skin and eyes safe. 30 minutes to two hours a day of sunlight is ideal. During the winter, some people become depressed because they aren't getting enough sunlight - this is known as seasonal affective Disorder (SAD). Some people find using a secial light-therapy lamp helps to alleviate the symptoms
+
+![](picture10.png)
+
+
+
+## Step 13 Connect with others and be sociable
+
+Make an effort to maintain good relationships and talk to people whenever you get the chance. Having friends is important not just for your self-esteem, but also for providing support when you're not feeling too great. Research has found that talking to others for just ten minutes can improve memory and test scores! Whether or not you find going out and meeting people difficult you can have a look at our Social Activities pages or our events calendar for inspiration.
+
+![](picture11.png)
+
+
+
+## Step 14 Avoid alcohol, smoking and drugs
+
+Drinking and smoking aren't things which we always associate with withdrawal symptoms, but they can cause some which impact on your mental health. When you've had a few drinks you can feel more depressed and anxious the next day, and it can be harder to concentrate. Excessive drinking for prolonged periods can leave you with a thiamine deficiency. Thiamine is important for our brain function and a deficiency can lead to severe memory problems, motor (coordination) problems, confusion and eye problems. If you smoke, between cigarettes your body and brain go into withdrawal which makes you irritable and anxious
+
+Other drugs will often leave you in withdrawal and can often cause very low moods and anxiety. More sever effects of drugs include paranoia and delusions. There is some research that suggests drug use is related to developing mental disorder like schizophrenia
+
+Have a look at our pages on help to stop smoking and on alcohol and substances use for more information
+
+![](alcohol.png)
+
+
+
+## Step 15 Do things for others
+
+Helping others isn't just good for the people you're helping; it's good for you too. Helping someone can help with your self-esteem and make you feel good about your place in the world. Feeling as though you;re part of a community is a really important part of your mental health. You could try volunteering for a local charity, or just being neighbourly.
+
+![](helping.png)
+
+
+
+## Step 16 improve you work-life balance
+
+We all have many roles in life. you might be a parent, a partner, an employee, a student, a church member, a teammate, a carer or a volunteer. It is easy to feel pulled between responsibilities and it can be tempting to sacrifice important parts of your life. This can leave you less satisfied and more stressed. Researchers suggested working towards greater balance fosters well being
+
+
+
+Think about how satisfied you are with the different areas of your life: relationships, work, recreation, health, exercise, self-development, and spiritual life. Are you devoting the amount of attention you would like to each? Making more time for some, and putting boundaries around others, might help create that balance.
+
+
+
+Taking time to wind down and enjoy relaxing activities is an important part of a balanced life and helps to reduce stress. Relaxing activities, such as gardening or reading, listening to music, walking or singing, should be an important part of your routine
+
+![](social.png)
+
+
+
+## Step 17 Laugh loud, laugh often
+
+Laughter really is good medicine. Humour that expresses positive emotion and messages (rather than humour that puts yourself or other people down), is good for your mental health. It has been found to release 'feel good' hormones, increase optimism, improve your mood over time and improve relationships by increasing connection and intimacy.
+
+![](laugh.png)
+
+
+
+## Step 18 Limit media & technology use
+
+Try reducing your amount of technology use and media consumption on daily basis
+
+You might not consider yourself addicted to social media or your smartphone and other devices, but it is often much more difficult to limit or reduce media consumption and technology use than you'd expect. The impacts of excessive and prolonged social media consumption can be harmful. Even over-consumption of news can negatively impact your mental well being. There's no need to cut it out completely from your life and go cold turkey. But try limiting when or how you use it. Here are some specific pieces of advices to help you with this tip :
+
+
+
+> 1. Keep your phone out of your bedroom so it''s not the last thing you check before going to sleep or the first thing you look at in the morning
+>
+> 2. Don't use your phone half an hour before bed or for the first half an hour from walking
+>
+> 3. Put your phone down on another table during meal times where  you can't reach it
+>
+> 4. Try challenging yourself by going a whole day without checking social media
+
+![](media.png)
