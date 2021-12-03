@@ -51,3 +51,67 @@ There are many forms of meditation - including one specifically for fidgety folk
 > Meditation works great for some people and would probably benefit most if they took the time to do it - Suo said
 
 There are lots of apps that can help, including this free one from UCLA. Suo also recommend scheduling regular virtual meetings with friends or family members - and post-pandemic, regular walks or coffee dates. If you schedule it in regularly, you'are more likely to do it.
+
+![](picture4.png)
+
+
+
+## Step 6 Focus on the Joy
+
+When we are grieving the loss of normalcy - of play dates, dinner out, movies in a theater, large family gathering and much more - it helps to find other things that bring us real happiness. 
+
+> Whether it's video streaming, podcasts, reading, outdoor, activities, boards, video games, hobbies, chatting with friends for hours - if it brings you joy, that's what you should do in moderation, of course - Suo said
+
+I am a firm believer in the restorative power of baking. Drake shared. Try to focus on the fun activities that are available to you, rather than the ones that aren't that mind shift can do wonders
+
+
+
+![](picture5.png)
+
+
+
+## Step 7 Rediscover a hobby
+
+> Don't beat yourself up for the weight you may have gained, due to lack of exercise, or the dust bunnies around the bed. Self-care is important and essential to feeling recharged - Angela Drake
+
+Channeling time and energy into a new - or newly rediscovered - hobby can be an effective way to improve your outlook. "I have used almost everything in my craft room, including the carefully curated things I've bought over the years but never had the time to figure out how to use!" laughed Suo. She says she;s used all the supplies to make decorations and homemade gifts for loved ones. "I love seeing and hearing people's reactions to what I've selected or made for them, so it brings new decorations around our house" - Suo said
+
+
+
+![](picture6.png)
+
+
+
+## Step 8 putting things off.
+
+"2020 has taught us an important Buddhistic lesson in impermanence" - Suo explained. "Stop putting things off. if there's something you've always wanted to do but kept putting off, do it in 2021 - once it's safe to do so, if it involves travel or being with other people, of course". Making plans can help, too, as it gives us something to look forward to. so while it's not yet a good time to take that international trip you've always dreamed of, you could start researching and planning it bout the little things you've been wanting to do - learn to bake bread, reach out to an old friend, learn calligraphy or start a journal - whatever you've been putting off.
+
+## Step 9 Do what you cant to sleep better
+
+"Insomnia is a major problem for many adults, and I have even seen kids struggle with sleep" Dake said. Sleep is essential to health and is influenced by stress - but also activity levels. Staying inside at home has made many of us less active. increasing your activity level is a good start, and light therapy can also help to reset your internal clock. Check out these tips for fighting *"coronasomna"*
+
+
+
+![](picture7.png)
+
+![]()
+
+
+
+## Step 10 Don't put off seeking help
+
+This is most important of all. Seek help if you are struggling. Telehealth appointments are safe and can be very effective. "We have evidence that the increased isolation of the panemic is leading to more people using substances and delaying" Seeking help - Suo said "Don't delay. There is hope and there are professionals who can help you through this"
+
+
+
+![](picture6.png)
+
+
+
+## Step 11 Eat well
+
+Eating well isn't just important for our bodies, but its also important for our minds. Certain mineral deficiencies, such as iron and vitamin B12 deficiences, can give us a low mood. Try to eat a balanced diet. If you find you're a  particularly stressed or anxious person, you should try limiting or cutting our caffeine as this can make you feel jittery and anxious
+
+
+
+![](picture9.png)
