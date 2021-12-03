@@ -153,3 +153,9 @@ You might not consider yourself addicted to social media or your smartphone and 
 > 4. Try challenging yourself by going a whole day without checking social media
 
 ![](media.png)
+
+
+
+## Step 19 Volunteer 
+
+The meaning and purpose derived from helping others or the community can enrich and expand your life - and make you happier. There's no limit to the individual and group volunteer opportunities you can explore. Schools, places of worship, nonprofits, and charitable organizations of all sorts **depend on volunteers for help in any capacity**
