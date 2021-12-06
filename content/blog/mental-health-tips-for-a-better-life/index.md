@@ -6,6 +6,7 @@ description: An important part of keeping fit and healthy is to take care of
   your own mental health. There are plenty of things you can do to help make
   sure you keep yourself mentally healthy.
 ---
+
 An important part of keeping fit and healthy is to take care of your own mental health. There are plenty of things you can do to help make sure you keep yourself mentally healthy.
 
 ![](picture1.png)
@@ -26,19 +27,19 @@ It's easy to get angry and frustrated, especially when we're already dealing wit
 
 > Whether it's video streaming, podcast, reading, outdoors activities, board games, video games, hobbies, chatting, with friends, for hours - if it brings you joy, that's what you should do in, moderation, of course - Shannon Suo
 
-it sounds simple, but its one of the toughest thing to master. 
+it sounds simple, but its one of the toughest thing to master.
 
 > Acknowledge that this is a difficult time. Not being hard on yourself is so important right now - Drake said
 >
-> Dont beat yourself up for the weight you may have gained, due to lack of exercise, or the dust bunnies around the bed. Self-care is important and essential to feeling recharged 
+> Dont beat yourself up for the weight you may have gained, due to lack of exercise, or the dust bunnies around the bed. Self-care is important and essential to feeling recharged
 
 ## Step 4 Small steps make a big difference - literally
 
-Exercise is not only good for our physical health, it can have a profound, positive impact on our mental health, too. 
+Exercise is not only good for our physical health, it can have a profound, positive impact on our mental health, too.
 
-> Focus on moderate exercise that you can do consistently. No need to train for marathon, but maybe commit to being able to walk or run a 5k or even a 10k, and slowly build it up ti that  - Suo said.
+> Focus on moderate exercise that you can do consistently. No need to train for marathon, but maybe commit to being able to walk or run a 5k or even a 10k, and slowly build it up ti that - Suo said.
 
-Make a commitment to moving more and to balancing that with good food choices and the occasional indulgence. Find a type of exercise that you enjoy and start small. This short video from sports medicine program includes several great ideas for squeezing exercise into your day, even while working from home . The Centers for Disease control and prevention (CDC) recommends 150 minutes of physical exercise weekly for greatest health benefits. 
+Make a commitment to moving more and to balancing that with good food choices and the occasional indulgence. Find a type of exercise that you enjoy and start small. This short video from sports medicine program includes several great ideas for squeezing exercise into your day, even while working from home . The Centers for Disease control and prevention (CDC) recommends 150 minutes of physical exercise weekly for greatest health benefits.
 
 > Calculate how much exercise you get each week now and set a goal to add 5-10 minutes per week if you are short. You can use a fitness tracking app to log your activity, so you know when you reach your goal
 
@@ -46,7 +47,7 @@ Make a commitment to moving more and to balancing that with good food choices an
 
 > Mindfulness meditation can be great for many people, but some patients refer other methods - Drake said
 
-There are many forms of meditation - including one specifically for fidgety folks - so be open to different strategies until you find what  it works for you! I know of one patient who found painting very calming - it even helped ease her chronic pain
+There are many forms of meditation - including one specifically for fidgety folks - so be open to different strategies until you find what it works for you! I know of one patient who found painting very calming - it even helped ease her chronic pain
 
 > Meditation works great for some people and would probably benefit most if they took the time to do it - Suo said
 
@@ -56,7 +57,7 @@ There are lots of apps that can help, including this free one from UCLA. Suo als
 
 ## Step 6 Focus on the Joy
 
-When we are grieving the loss of normalcy - of play dates, dinner out, movies in a theater, large family gathering and much more - it helps to find other things that bring us real happiness. 
+When we are grieving the loss of normalcy - of play dates, dinner out, movies in a theater, large family gathering and much more - it helps to find other things that bring us real happiness.
 
 > Whether it's video streaming, podcasts, reading, outdoor, activities, boards, video games, hobbies, chatting with friends for hours - if it brings you joy, that's what you should do in moderation, of course - Suo said
 
@@ -78,7 +79,7 @@ Channeling time and energy into a new - or newly rediscovered - hobby can be an 
 
 ## Step 9 Do what you cant to sleep better
 
-"Insomnia is a major problem for many adults, and I have even seen kids struggle with sleep" Dake said. Sleep is essential to health and is influenced by stress - but also activity levels. Staying inside at home has made many of us less active. increasing your activity level is a good start, and light therapy can also help to reset your internal clock. Check out these tips for fighting *"coronasomna"*
+"Insomnia is a major problem for many adults, and I have even seen kids struggle with sleep" Dake said. Sleep is essential to health and is influenced by stress - but also activity levels. Staying inside at home has made many of us less active. increasing your activity level is a good start, and light therapy can also help to reset your internal clock. Check out these tips for fighting _"coronasomna"_
 
 ![](picture7.png)
 
@@ -90,7 +91,7 @@ This is most important of all. Seek help if you are struggling. Telehealth appoi
 
 ## Step 11 Eat well
 
-Eating well isn't just important for our bodies, but its also important for our minds. Certain mineral deficiencies, such as iron and vitamin B12 deficiences, can give us a low mood. Try to eat a balanced diet. If you find you're a  particularly stressed or anxious person, you should try limiting or cutting our caffeine as this can make you feel jittery and anxious
+Eating well isn't just important for our bodies, but its also important for our minds. Certain mineral deficiencies, such as iron and vitamin B12 deficiences, can give us a low mood. Try to eat a balanced diet. If you find you're a particularly stressed or anxious person, you should try limiting or cutting our caffeine as this can make you feel jittery and anxious
 
 ![](picture9.png)
 
@@ -144,51 +145,36 @@ Try reducing your amount of technology use and media consumption on daily basis
 
 You might not consider yourself addicted to social media or your smartphone and other devices, but it is often much more difficult to limit or reduce media consumption and technology use than you'd expect. The impacts of excessive and prolonged social media consumption can be harmful. Even over-consumption of news can negatively impact your mental well being. There's no need to cut it out completely from your life and go cold turkey. But try limiting when or how you use it. Here are some specific pieces of advices to help you with this tip :
 
-> \- Keep your phone out of your bedroom so it''s not the last thing you check before going to sleep or the first thing you look at in the morning
->
-> \- Don't use your phone half an hour before bed or for the first half an hour from walking
->
-> \- Put your phone down on another table during meal times where  you can't reach it
->
-> \- Try challenging yourself by going a whole day without checking social media
+1. Keep your phone out of your bedroom so it''s not the last thing you check before going to sleep or the first thing you look at in the morning
+
+2. Don't use your phone half an hour before bed or for the first half an hour from walking
+
+3. Put your phone down on another table during meal times where you can't reach it
+
+4. Try challenging yourself by going a whole day without checking social media
 
 ![](media.png)
 
-
-
-
-
-## Step 19 Volunteer 
+## Step 19 Volunteer
 
 The meaning and purpose derived from helping others or the community can enrich and expand your life - and make you happier. There's no limit to the individual and group volunteer opportunities you can explore. Schools, places of worship, nonprofits, and charitable organizations of all sorts **depend on volunteers for help in any capacity**
 
 ![](volunteer.png)
 
-
-
-
-
 ## Step 20 Get help from a licensed mental health professional when an if you need it.
 
 Seeking help is a sign of strength - not a weakness. Just as it requires effort to build and maintain physical health, so it is with mental health.
 
-
-
 This list included a few small but impactful ways to improve your mental health every day. it is most important to remember that treatment is effective. People who get appropriate care can recover from mental illness and lead full, productive, and rewarding lives.
 
-*References:*
+_References:_
 
-*[https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01](*https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01*)*
+[https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01](_https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01*)
 
-*
-[https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/](*https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/*)*
+[https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/](*https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/*)
 
-*
-[https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/](*https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/*)*
+[https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/](*https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/*)
 
-*
-[https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/](*https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/*)*
+[https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/](*https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/*)
 
-
-
-*[https://www.bbrfoundation.org/blog/everyday-mental-health-tips](*https://www.bbrfoundation.org/blog/everyday-mental-health-tips*)*
+[https://www.bbrfoundation.org/blog/everyday-mental-health-tips](_https://www.bbrfoundation.org/blog/everyday-mental-health-tips*)

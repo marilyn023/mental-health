@@ -11,8 +11,6 @@ const BlogIndex = ({ data, location }) => {
 
   //let featuredImgFluid = posts.frontmatter.thumbnail.childImageSharp.fluid
 
-  console.log(posts)
-
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>

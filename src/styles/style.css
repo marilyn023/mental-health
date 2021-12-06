@@ -1,54 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-html {
-  scroll-behavior: smooth;
-}
-
-.ant-rate-star.ant-rate-star-full,
-.ant-rate-star.ant-rate-star-zero,
-.ant-rate-star.ant-rate-star-half.ant-rate-star-active {
-  transition: transform 0s;
-}
-
-.ant-rate-star.ant-rate-star-half.ant-rate-star-active:hover {
-  transform: scale(0.91);
-}
-
-.ant-rate-star.ant-rate-star-full:hover {
-  transform: scale(0.91);
-}
-
-.ant-rate-star.ant-rate-star-zero:hover {
-  transform: scale(0.91);
-}
-
-.truncate-title {
-  width: 300px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.truncate-header {
-  width: 200px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.truncate-text {
-  overflow: hidden;
-  max-height: 8rem;
-  -webkit-box-orient: vertical;
-  display: block;
-  display: -webkit-box;
-  overflow: hidden !important;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 4;
-}
-
 /* CSS Custom Properties Definitions */
 
 :root {
@@ -78,19 +27,17 @@ html {
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --fontFamily-sans: "Montserrat", sans-ser;
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
-  --font-body: var(--fontFamily-serif);
+  --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
   --fontWeight-semibold: 600;
   --fontWeight-bold: 700;
   --fontWeight-extrabold: 800;
-  --fontWeight-black: 600;
+  --fontWeight-black: 900;
   --fontSize-root: 16px;
   --lineHeight-none: 1;
   --lineHeight-tight: 1.1;
@@ -113,6 +60,13 @@ html {
   --color-accent: #d1dce5;
 }
 
+.truncate-header {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* HTML elements */
 
 *,
@@ -129,6 +83,7 @@ html {
 }
 
 body {
+  font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
 }
@@ -152,6 +107,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
+  margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
   letter-spacing: -0.025em;

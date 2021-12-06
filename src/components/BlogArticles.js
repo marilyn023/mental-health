@@ -44,7 +44,10 @@ export default function BlogArticles({ posts }) {
                       className="w-52 h-32 hidden sm:block object-cover"
                       style={{
                         backgroundSize: "cover",
-                        backgroundImage: `url(${post.frontmatter.thumbnail.childImageSharp.fluid.src})`,
+                        backgroundImage: `url(${
+                          post.frontmatter.thumbnail &&
+                          post.frontmatter.thumbnail.childImageSharp.fluid.src
+                        })`,
                         backgroundRepeat: "no-repeat",
                       }}
                     />

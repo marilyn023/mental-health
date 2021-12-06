@@ -14,8 +14,8 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-postcss`,
     `gatsby-remark-embed-video`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {

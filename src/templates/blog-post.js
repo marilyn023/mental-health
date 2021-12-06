@@ -8,8 +8,17 @@ import { Modal } from "../components"
 import { Drawer } from "antd"
 import { DiscussionEmbed } from "disqus-react"
 import useToggle from "../hooks/useToggle"
+import styled from "styled-components"
 
 //import { Modal } from "../components"
+
+const BlogPostStyled = styled.section`
+  .post-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+`
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -63,7 +72,7 @@ const BlogPostTemplate = ({ data, location }) => {
   }
 
   return (
-    <>
+    <BlogPostStyled>
       {toggleFeedback && <Modal id={post.id} openFeedback={openFeedback} />}
       <Drawer
         visible={toggle}
@@ -93,13 +102,16 @@ const BlogPostTemplate = ({ data, location }) => {
           description={post.frontmatter.description || post.excerpt}
         />
         <article
-          className="blog-post max-w-3xl mx-auto my-20"
+          className="blog-post global-wrapper"
           itemScope
           itemType="http://schema.org/Article"
         >
           <div
             className="h-96 mb-10 w-full"
             style={{
+              width: "100%",
+              height: "350px",
+              marginBottom: "50px",
               backgroundSize: "cover",
               backgroundImage: `url(${post.frontmatter.thumbnail.childImageSharp.fluid.src})`,
               backgroundRepeat: "no-repeat",
@@ -107,7 +119,7 @@ const BlogPostTemplate = ({ data, location }) => {
           />
           <header>
             <h1 itemProp="headline">{post.frontmatter.title}</h1>
-            <div className="flex items-center justify-between">
+            <div className="post-date">
               <p>{post.frontmatter.date}</p>
               <button
                 onClick={openDrawer}
@@ -165,7 +177,7 @@ const BlogPostTemplate = ({ data, location }) => {
           </nav>
         </article>
       </Layout>
-    </>
+    </BlogPostStyled>
   )
 }
 

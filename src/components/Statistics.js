@@ -1,24 +1,60 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { LearnMore } from "./"
+import styled from "styled-components"
+
+const StyledStatistics = styled.section`
+  padding: 100px 0;
+  display: flex;
+  gap: 50px;
+
+  .left-content {
+    width: 50%;
+    display: block;
+
+    @media (max-width: 780px) {
+      width: 100%;
+      display: none;
+    }
+  }
+
+  .right-content {
+    width: 50%;
+
+    h1 {
+      color: #3a383f;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 15px;
+      opacity: 0.5;
+      max-width: 500px;
+      line-height: 1.8rem;
+    }
+
+    @media (max-width: 780px) {
+      width: 100%;
+    }
+  }
+`
 
 export default function Statistics() {
   let title = "Learn more"
 
   return (
-    <section className="max-w-content mx-auto md:flex my-32">
-      <div className="w-full md:w-1/2 hidden lg:block">
+    <StyledStatistics>
+      <div className="left-content">
         <StaticImage
           layout="fixed"
           formats={["auto", "webp", "avif"]}
           src="../images/Statistics.gif"
-          className="w-11/12 hidden lg:block"
           quality={95}
           alt=""
         />
         {/* <img src="/images/Statistics.gif" className="w-9/12" alt="" /> */}
       </div>
-      <div className="w-full lg:w-1/2">
+      <div className="w-full lg:w-1/2 right-content">
         <h1 className="text-4xl font-bold my-4 text-secondary max-w-lg">
           Do you know?
         </h1>
@@ -35,6 +71,6 @@ export default function Statistics() {
           url="https://isatu-mental-health.netlify.app/hello-new-post-for-today-about-mental-illness/"
         />
       </div>
-    </section>
+    </StyledStatistics>
   )
 }
