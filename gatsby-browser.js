@@ -9,3 +9,11 @@ import "./src/styles/style.css"
 
 // Highlighting for code blocks
 import "prismjs/themes/prism.css"
+
+import React from "react"
+
+import { AuthProvider } from "./src/context/AuthProvider"
+
+export const wrapRootElement = ({ element }) => (
+  <AuthProvider>{element}</AuthProvider>
+)

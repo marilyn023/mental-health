@@ -99,7 +99,7 @@ const NavbarItems = ({ list, locationPathname }) => {
           <span>{type.title}</span>
         </Link>
       ))}
-      <Link to="/login" className="md:ml-16">
+      <Link to="/content" className="md:ml-16">
         <button>Login</button>
       </Link>
     </ListStyled>

@@ -20,14 +20,12 @@ import Seo from "../components/seo"
 //   )
 // }
 
-const BlogIndex = ({ data, location }) => {
+const Blog = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const allPosts = data.allMarkdownRemark.nodes
 
   const GRID_LIMIT = 6
   const firstSix = allPosts.slice(1, GRID_LIMIT)
-
-  console.log(firstSix)
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -40,7 +38,7 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default Blog
 
 export const pageQuery = graphql`
   query {

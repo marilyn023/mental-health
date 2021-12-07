@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import { Search } from "react-feather"
@@ -173,7 +173,7 @@ export default function BlogCards({ posts, data, location }) {
           Different stories and tips, guides on how to cope up depression
         </p>
       </div>
-      <SearchStyled>
+      {/* <SearchStyled>
         <div className="search-input">
           <Search size="20" />
           <input
@@ -182,7 +182,7 @@ export default function BlogCards({ posts, data, location }) {
             placeholder="Search article..."
           />
         </div>
-      </SearchStyled>
+      </SearchStyled> */}
       <div className="card-wrapper">
         {filterPosts.map(type => (
           <Link
@@ -207,7 +207,7 @@ export default function BlogCards({ posts, data, location }) {
       </div>
       <div className="button-explore">
         <Link
-          to={`${location.pathname === "/" ? "/blog" : "/login"}`}
+          to={`${location.pathname === "/" ? "/blog" : "/content"}`}
           className="link"
         >
           Explore more...

@@ -128,7 +128,7 @@ export default function LandingPage() {
           </span>
         </div>
         <div className="buttons">
-          <Link to="/login" className="get-started">
+          <Link to="#articles" className="get-started">
             Articles
           </Link>
         </div>

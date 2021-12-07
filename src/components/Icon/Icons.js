@@ -1,9 +1,11 @@
-import { Arrow, Menu, Facebook, Globe, Instagram, LinkedIn } from "."
+import { Arrow, Menu, Facebook, Globe, Instagram, LinkedIn, Google } from "."
 import React from "react"
 
 export default function Icons({ width, height, fill, name }) {
   function icons() {
     switch (name) {
+      case "Google":
+        return <Google width={width} height={height} />
       case "Arrow":
         return <Arrow width={width} height={height} fill={fill} />
       case "Menu":

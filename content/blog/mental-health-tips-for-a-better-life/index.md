@@ -147,8 +147,7 @@ You might not consider yourself addicted to social media or your smartphone and 
 
 1. Keep your phone out of your bedroom so it''s not the last thing you check before going to sleep or the first thing you look at in the morning
 
-<<<<<<< HEAD
-2. Don't use your phone half an hour before bed or for the first half an hour from walking
+<<<<<<< HEAD 2. Don't use your phone half an hour before bed or for the first half an hour from walking
 
 3. Put your phone down on another table during meal times where you can't reach it
 
@@ -157,7 +156,9 @@ You might not consider yourself addicted to social media or your smartphone and 
 ![](media.png)
 
 =======
->>>>>>> 4542b6a8b6aee0b9452b5265ecbc6daa47b10dea
+
+> > > > > > > 4542b6a8b6aee0b9452b5265ecbc6daa47b10dea
+
 ## Step 19 Volunteer
 
 The meaning and purpose derived from helping others or the community can enrich and expand your life - and make you happier. There's no limit to the individual and group volunteer opportunities you can explore. Schools, places of worship, nonprofits, and charitable organizations of all sorts **depend on volunteers for help in any capacity**
@@ -170,20 +171,7 @@ Seeking help is a sign of strength - not a weakness. Just as it requires effort 
 
 This list included a few small but impactful ways to improve your mental health every day. it is most important to remember that treatment is effective. People who get appropriate care can recover from mental illness and lead full, productive, and rewarding lives.
 
-<<<<<<< HEAD
-_References:_
-
-[https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01](_https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01*)
-
-[https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/](*https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/*)
-
-[https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/](*https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/*)
-
-[https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/](*https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/*)
-
-[https://www.bbrfoundation.org/blog/everyday-mental-health-tips](_https://www.bbrfoundation.org/blog/everyday-mental-health-tips*)
-=======
-*References:*[](https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01)
+_References:_[](https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01)
 
 [](https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01)<https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01>
 
@@ -194,4 +182,3 @@ _References:_
 <https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/>
 
 <https://www.bbrfoundation.org/blog/everyday-mental-health-tips>
->>>>>>> 4542b6a8b6aee0b9452b5265ecbc6daa47b10dea

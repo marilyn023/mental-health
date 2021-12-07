@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql } from "gatsby"
+//import { AuthProvider } from "../context/AuthProvider"
 import Layout from "../components/layout"
 import {
   LandingPage,
@@ -9,6 +9,7 @@ import {
   Contact,
 } from "../components"
 import Seo from "../components/seo"
+import { graphql } from "gatsby"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
