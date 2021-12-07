@@ -93,7 +93,9 @@ const DashboardStyled = styled.section`
   }
 `
 const DashboardLayout = ({ children }) => {
-  const context = useContext(AuthContext)
+  const { authenticted } = useContext(AuthContext)
+
+  //console.log(authenticted.email)
 
   const list = [
     // {
@@ -134,7 +136,7 @@ const DashboardLayout = ({ children }) => {
             quality={95}
             alt="Profile picture"
           />
-          <span className="display-name">{context.authenticted.email}</span>
+          <span className="display-name">{authenticted?.email}</span>
         </div>
 
         <div className="list">

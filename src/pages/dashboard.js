@@ -88,7 +88,9 @@ const DashboardStyled = styled.section`
 `
 
 const Dashboard = ({ data }) => {
-  const allPosts = data.allMarkdownRemark.nodes
+  const allPosts = data?.allMarkdownRemark.nodes
+
+  //console.log(allPosts)
 
   const emptyQuery = ""
 
@@ -153,7 +155,7 @@ const Dashboard = ({ data }) => {
           </div>
         </SearchStyled>
         <div className="article-main-wrapper">
-          {filterPosts.map(type => (
+          {filterPosts?.map(type => (
             <Link
               to={type.fields.slug}
               itemProp="url"
