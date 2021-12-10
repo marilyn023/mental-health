@@ -16,7 +16,7 @@ const LearnMoreStyled = styled.section`
     font-size: 13px;
     color: #fff;
     background: #ff871e;
-    padding: 6px 25px;
+    padding: 8px 30px;
     border-radius: 5px;
     font-weight: bold;
 

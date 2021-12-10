@@ -138,13 +138,13 @@ export default function Navbar({ location }) {
     },
     {
       id: 2,
-      title: "Blog",
-      path: "/blog",
+      title: "Stories",
+      path: "#story",
     },
     {
       id: 3,
-      title: "Stories",
-      path: "#story",
+      title: "Purpose",
+      path: "#purpose",
     },
     {
       id: 4,

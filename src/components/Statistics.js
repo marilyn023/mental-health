@@ -43,7 +43,7 @@ export default function Statistics() {
   let title = "Learn more"
 
   return (
-    <StyledStatistics>
+    <StyledStatistics id="story">
       <div className="left-content">
         <StaticImage
           layout="fixed"

@@ -93,7 +93,7 @@ export default function Purpose() {
   ]
 
   return (
-    <StyledPurpose className="my-32 lg:flex">
+    <StyledPurpose id="purpose" className="my-32 lg:flex">
       <div className="left-content">
         <h1>Our purpose</h1>
         <div className="sub-paragraph">

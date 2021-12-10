@@ -50,6 +50,7 @@ const DashboardStyled = styled.section`
     grid-template-rows: masonry;
 
     .card {
+      box-shadow: 5px 10px 20px rgba(0, 174, 164, 0.2);
       max-width: 300px;
       height: auto;
       text-decoration: none;
@@ -63,7 +64,6 @@ const DashboardStyled = styled.section`
       .article-body {
         margin: 10px 0;
         background: #fff;
-        box-shadow: 5px 10px 20px rgba(0, 174, 164, 0.2);
         padding: 10px 20px;
 
         h1 {

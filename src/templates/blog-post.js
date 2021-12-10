@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
-//import Layout from "../components/layout"
+import DashboardLayout from "../components/DashboardLayout"
 import Seo from "../components/seo"
 import { Modal } from "../components"
 //import { Drawer } from "antd"
@@ -72,9 +72,10 @@ const BlogPostTemplate = ({ data, location }) => {
   }
 
   return (
-    <BlogPostStyled>
-      {toggleFeedback && <Modal id={post.id} openFeedback={openFeedback} />}
-      {/* <Drawer
+    <DashboardLayout>
+      <BlogPostStyled>
+        {toggleFeedback && <Modal id={post.id} openFeedback={openFeedback} />}
+        {/* <Drawer
         visible={toggle}
         onClose={closeDrawer}
         title="Music Section"
@@ -96,86 +97,87 @@ const BlogPostTemplate = ({ data, location }) => {
           ></iframe>
         ))}
       </Drawer> */}
-      <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-      />
-      <article
-        className="blog-post global-wrapper"
-        itemScope
-        itemType="http://schema.org/Article"
-      >
-        <div
-          style={{
-            width: "100%",
-            height: "350px",
-            marginBottom: "50px",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundImage: `url(${post.frontmatter.thumbnail.childImageSharp.fluid.src})`,
-            backgroundRepeat: "no-repeat",
-          }}
+        <Seo
+          title={post.frontmatter.title}
+          description={post.frontmatter.description || post.excerpt}
         />
-        <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <div className="post-date">
-            <p>{post.frontmatter.date}</p>
-            {/* <button
+        <article
+          className="blog-post global-wrapper"
+          itemScope
+          itemType="http://schema.org/Article"
+        >
+          <div
+            style={{
+              width: "100%",
+              height: "350px",
+              marginBottom: "50px",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundImage: `url(${post.frontmatter.thumbnail.childImageSharp.fluid.src})`,
+              backgroundRepeat: "no-repeat",
+            }}
+          />
+          <header>
+            <h1 itemProp="headline">{post.frontmatter.title}</h1>
+            <div className="post-date">
+              <p>{post.frontmatter.date}</p>
+              {/* <button
               onClick={openDrawer}
               className="bg-primary px-5 py-2 text-sm rounded-lg text-white font-bold"
             >
               Add some beats!
             </button> */}
-          </div>
-        </header>
-        <hr className="my-5" />
-        <section
-          className="text-lg"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          itemProp="articleBody"
-        />
-        <button
-          onClick={openFeedback}
-          className="bg-primary hover:opacity-80 rounded-lg py-2 w-full text-center text-white font-bold my-4"
-        >
-          Feedback
-        </button>
-        <hr />
-
-        <DiscussionEmbed {...disqusConfig} />
-
-        <footer>
-          <Bio />
-        </footer>
-
-        <nav className="blog-post-nav">
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
+            </div>
+          </header>
+          <hr className="my-5" />
+          <section
+            className="text-lg"
+            dangerouslySetInnerHTML={{ __html: post.html }}
+            itemProp="articleBody"
+          />
+          <button
+            onClick={openFeedback}
+            className="bg-primary hover:opacity-80 rounded-lg py-2 w-full text-center text-white font-bold my-4"
           >
-            <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
-        </nav>
-      </article>
-    </BlogPostStyled>
+            Feedback
+          </button>
+          <hr />
+
+          <DiscussionEmbed {...disqusConfig} />
+
+          <footer>
+            <Bio />
+          </footer>
+
+          <nav className="blog-post-nav">
+            <ul
+              style={{
+                display: `flex`,
+                flexWrap: `wrap`,
+                justifyContent: `space-between`,
+                listStyle: `none`,
+                padding: 0,
+              }}
+            >
+              <li>
+                {previous && (
+                  <Link to={previous.fields.slug} rel="prev">
+                    ← {previous.frontmatter.title}
+                  </Link>
+                )}
+              </li>
+              <li>
+                {next && (
+                  <Link to={next.fields.slug} rel="next">
+                    {next.frontmatter.title} →
+                  </Link>
+                )}
+              </li>
+            </ul>
+          </nav>
+        </article>
+      </BlogPostStyled>
+    </DashboardLayout>
   )
 }
 

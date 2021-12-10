@@ -3,7 +3,8 @@ import { AuthContext } from "../context/AuthProvider"
 import { firebaseAuth } from "../config/firebase"
 import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
-import { FileText, BookOpen, Play, LogOut } from "react-feather"
+import { Link } from "gatsby"
+import { FileText, BookOpen, Play, LogOut, Globe } from "react-feather"
 
 const DashboardStyled = styled.section`
   display: flex;
@@ -39,6 +40,30 @@ const DashboardStyled = styled.section`
 
     .list {
       padding: 10px 20px;
+
+      .browse {
+        text-decoration: none;
+        color: #3a383f;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 5px 10px;
+
+        .icon {
+          width: 15px;
+          height: 15px;
+        }
+
+        &:hover,
+        &:focus {
+          padding: 5px 10px;
+          background: #ff871e;
+          border-radius: 5px;
+          color: #fff;
+        }
+      }
 
       .sidebar-list {
         display: flex;
@@ -98,11 +123,7 @@ const DashboardLayout = ({ children }) => {
   //console.log(authenticted.email)
 
   const list = [
-    // {
-    //   id: 1,
-    //   title: "Browse",
-    //   icon: <Globe className="icon" />,
-    // },
+    ,
     {
       id: 2,
       title: "Tips",
@@ -140,6 +161,10 @@ const DashboardLayout = ({ children }) => {
         </div>
 
         <div className="list">
+          <Link to="/content" className="browse">
+            <Globe className="icon" />
+            <span>Browse</span>
+          </Link>
           {list.map(type => (
             <div className="sidebar-list" key={type.id}>
               {type.icon}

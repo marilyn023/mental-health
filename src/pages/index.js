@@ -21,7 +21,7 @@ const BlogIndex = ({ data, location }) => {
       <LandingPage />
       <Statistics />
       <Purpose />
-      <BlogCards posts={posts} data={data} location={location} />
+      {/* <BlogCards posts={posts} data={data} location={location} /> */}
       <Contact />
     </Layout>
   )
