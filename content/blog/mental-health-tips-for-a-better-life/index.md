@@ -179,18 +179,4 @@ _References:_[](https://health.ucdavis.edu/health-news/newsroom/caring-for-your-
 
 <https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/>
 
-# <https://www.bbrfoundation.org/blog/everyday-mental-health-tips>
-
-_References:_
-
-[https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01](_https://health.ucdavis.edu/health-news/newsroom/caring-for-your-mental-health-in-2021-10-tips/2021/01*)
-
-[https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/](*https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/*)
-
-[https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/](*https://psychlopaedia.org/top-tips/10-ways-to-help-your-mental-health/*)
-
-[https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/](*https://www.onecentralhealth.com.au/mental-health/10-tips-for-improving-your-mental-health/*)
-
-[https://www.bbrfoundation.org/blog/everyday-mental-health-tips](_https://www.bbrfoundation.org/blog/everyday-mental-health-tips*)
-
-> > > > > > > parent of 69bbc5a (fixing conflicts)
+<https://www.bbrfoundation.org/blog/everyday-mental-health-tips>

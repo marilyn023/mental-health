@@ -41,7 +41,8 @@ const DashboardStyled = styled.section`
     .list {
       padding: 10px 20px;
 
-      .browse {
+      /* .browse {
+        margin: 0;
         text-decoration: none;
         color: #3a383f;
         gap: 10px;
@@ -63,16 +64,18 @@ const DashboardStyled = styled.section`
           border-radius: 5px;
           color: #fff;
         }
-      }
+      } */
 
       .sidebar-list {
+        text-decoration: none;
+        color: #3a383f;
         display: flex;
         align-items: center;
         gap: 10px;
         cursor: pointer;
         font-size: 15px;
         font-weight: bold;
-        margin: 20px 0;
+        margin: 10px 0;
         padding: 5px 10px;
 
         .icon {
@@ -90,21 +93,27 @@ const DashboardStyled = styled.section`
       }
 
       .logout {
-        margin: 25px 0;
         font-size: 15px;
         display: flex;
         align-items: center;
         gap: 10px;
         font-weight: bold;
-        background: #ff871e;
         padding: 5px 10px;
-        color: #fff;
+        color: #3a383f;
         border-radius: 5px;
         cursor: pointer;
 
         .logout-icon {
           width: 15px;
           height: 15px;
+        }
+
+        &:hover,
+        &:focus {
+          padding: 5px 10px;
+          background: #ff871e;
+          border-radius: 5px;
+          color: #fff;
         }
       }
     }
@@ -123,22 +132,28 @@ const DashboardLayout = ({ children }) => {
   //console.log(authenticted.email)
 
   const list = [
-    ,
+    // {
+    //   id: 2,
+    //   title: "Tips",
+    //   icon: <FileText className="icon" />,
+    // },
+    // {
+    //   id: 3,
+    //   title: "Stories",
+    //   icon: <BookOpen className="icon" />,
+    // },
     {
-      id: 2,
-      title: "Tips",
-      icon: <FileText className="icon" />,
+      id: 1,
+      title: "Browse",
+      icon: <Globe className="icon" />,
+      url: "/content",
     },
-    {
-      id: 3,
-      title: "Stories",
-      icon: <BookOpen className="icon" />,
-    },
-    {
-      id: 4,
-      title: "Play Music",
-      icon: <Play className="icon" />,
-    },
+    // {
+    //   id: 2,
+    //   title: "Play Music",
+    //   icon: <Play className="icon" />,
+    //   url: "/playMusic",
+    // },
   ]
 
   const SignOut = () => firebaseAuth.signOut()
@@ -161,15 +176,15 @@ const DashboardLayout = ({ children }) => {
         </div>
 
         <div className="list">
-          <Link to="/content" className="browse">
+          {/* <Link to="/content" className="browse">
             <Globe className="icon" />
             <span>Browse</span>
-          </Link>
+          </Link> */}
           {list.map(type => (
-            <div className="sidebar-list" key={type.id}>
+            <Link to={type.url} className="sidebar-list" key={type.id}>
               {type.icon}
               <span>{type.title}</span>
-            </div>
+            </Link>
           ))}
           <div className="logout" onClick={SignOut}>
             <LogOut className="logout-icon" />

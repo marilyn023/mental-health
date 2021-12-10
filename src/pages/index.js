@@ -1,19 +1,13 @@
 import * as React from "react"
 //import { AuthProvider } from "../context/AuthProvider"
 import Layout from "../components/layout"
-import {
-  LandingPage,
-  Statistics,
-  Purpose,
-  BlogCards,
-  Contact,
-} from "../components"
+import { LandingPage, Statistics, Purpose, Contact } from "../components"
 import Seo from "../components/seo"
 import { graphql } from "gatsby"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+  //const posts = data.allMarkdownRemark.nodes
 
   return (
     <Layout location={location} title={siteTitle}>

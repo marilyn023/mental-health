@@ -1,11 +1,16 @@
 import React from "react"
 //import Layout from "../components/layout"
-import { Register } from "../components"
+import { Register, Modal } from "../components"
+import useToggle from "../hooks/useToggle"
 import styled from "styled-components"
-import Icon from "../components/Icon/Icons"
+//import Icon from "../components/Icon/Icons"
 import loginBackground from "../images/login-background.jpg"
 import Swal from "sweetalert2"
-import { firebaseAuth, signInWithEmailAndPassword } from "../config/firebase"
+import {
+  firebaseAuth,
+  signInWithEmailAndPassword,
+  sendPasswordResetEmail,
+} from "../config/firebase"
 
 const LoginStyled = styled.section`
   height: 100%;
@@ -38,7 +43,7 @@ const LoginStyled = styled.section`
         background: #fff;
         box-shadow: 5px 10px 20px rgba(0, 174, 164, 0.2);
         max-width: 400px;
-        height: auto;
+        height: 450px;
         border-radius: 5px;
 
         .title {
@@ -146,14 +151,45 @@ const LoginStyled = styled.section`
   }
 `
 
+const StyledForgotPassword = styled.section`
+  .title {
+    font-weight: bold;
+    font-size: 15px;
+  }
+`
+
 const Login = () => {
   //const siteTitle = data.site.siteMetadata?.title || `Title`
 
   const [toggle, setToggle] = React.useState(false)
   const [email, setEmail] = React.useState("")
+  const [emailReset, setEmailReset] = React.useState("")
   const [password, setPassword] = React.useState("")
+  const [toggleModal, setToggleModal] = useToggle()
 
   const onToggle = () => setToggle(toggle => !toggle)
+  const isToggleModal = () => setToggleModal(toggleModal => !toggleModal)
+
+  const onSubmitPassword = event => {
+    event.preventDefault()
+
+    sendPasswordResetEmail(firebaseAuth, emailReset)
+      .then(() => {
+        Swal.fire({
+          title: "Successfully",
+          text: "Sucessfully Send the reset email",
+          icon: "success",
+        })
+        setEmailReset("")
+      })
+      .catch(error => {
+        Swal.fire({
+          title: "Warning",
+          text: error.message,
+          icon: "warning",
+        })
+      })
+  }
 
   const onSubmit = event => {
     event.preventDefault()
@@ -179,6 +215,35 @@ const Login = () => {
 
   return (
     <>
+      {toggleModal && (
+        <Modal>
+          <StyledForgotPassword>
+            <span className="title">Forgot Password?</span>
+            <p>
+              Add your email to reset your password, we will send you an email
+              in as short while
+            </p>
+
+            <form onSubmit={onSubmitPassword}>
+              <input
+                text="email"
+                onChange={event => setEmailReset(event.target.value)}
+                placeholder="Enter your email"
+              />
+              <div className="button-wrapper">
+                <button
+                  type="button"
+                  onClick={isToggleModal}
+                  className="cancel-button"
+                >
+                  cancel
+                </button>
+                <button className="submit-button">Submit</button>
+              </div>
+            </form>
+          </StyledForgotPassword>
+        </Modal>
+      )}
       <LoginStyled>
         <div
           className="bg-image"
@@ -237,13 +302,15 @@ const Login = () => {
                       onChange={event => setPassword(event.target.value)}
                     />
                   </div>
-                  <span className="forgot-password">Forgot password?</span>
+                  <span className="forgot-password" onClick={isToggleModal}>
+                    Forgot password?
+                  </span>
                   <div>
                     <button type="submit" className="login-btn">
                       Login
                     </button>
                   </div>
-                  <div className="line">
+                  {/* <div className="line">
                     <h2>
                       <span>or login with</span>
                     </h2>
@@ -260,7 +327,7 @@ const Login = () => {
                         />
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </form>
               </section>
             )}
