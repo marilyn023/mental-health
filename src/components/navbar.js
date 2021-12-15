@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import Icon from "./Icon/Icons"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import { firebaseAuth } from "../config/firebase"
 import styled from "styled-components"
 
 const NavbarStyled = styled.section`
@@ -67,7 +68,7 @@ const ListStyled = styled.section`
 
   button {
     background: #ff871e;
-    padding: 10px 50px;
+    padding: 10px 40px;
     border-radius: 5px;
     color: #fff;
     border: none;
@@ -86,11 +87,15 @@ const ListStyled = styled.section`
 `
 
 //bg-primary px-10 py-2 rounded-md text-white hover:opacity-50
+const SignOut = () => firebaseAuth.signOut()
 
 const NavbarItems = ({ list, locationPathname }) => {
   //const [newList, setNewList] = useState([])
 
-  const filtered = locationPathname === "/blog" ? list.splice(0, 2) : list
+  const filtered =
+    locationPathname === "/blog" || locationPathname === "/about"
+      ? list.splice(0, 3)
+      : list
 
   return (
     <ListStyled>
@@ -99,9 +104,7 @@ const NavbarItems = ({ list, locationPathname }) => {
           <span>{type.title}</span>
         </Link>
       ))}
-      <Link to="/content" className="md:ml-16">
-        <button>Login</button>
-      </Link>
+      <button onClick={SignOut}>Logout</button>
     </ListStyled>
   )
 }
@@ -138,19 +141,24 @@ export default function Navbar({ location }) {
     },
     {
       id: 2,
-      title: "Stories",
-      path: "#story",
+      title: "Blog",
+      path: "/blog",
+    },
+    {
+      id: 2,
+      title: "About us",
+      path: "/about",
     },
     {
       id: 3,
       title: "Purpose",
       path: "#purpose",
     },
-    {
-      id: 4,
-      title: "Contact",
-      path: "#contact",
-    },
+    // {
+    //   id: 4,
+    //   title: "Contact",
+    //   path: "#contact",
+    // },
   ]
 
   return (
@@ -165,7 +173,7 @@ export default function Navbar({ location }) {
           quality={95}
           alt="Profile picture"
         />
-        <span className="title">mental health</span>
+        <span className="title">ISATU online forum and mental health tips</span>
       </div>
       <nav
         className={`flex flex-col ${

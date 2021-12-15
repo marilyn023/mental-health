@@ -122,48 +122,48 @@ const StyledCards = styled.section`
   }
 `
 
-export default function BlogCards({ posts, location }) {
-  // const emptyQuery = ""
+export default function BlogCards({ data, location, posts }) {
+  const emptyQuery = ""
 
-  // const [state, setState] = React.useState({
-  //   filteredData: [],
-  //   query: emptyQuery,
-  // })
+  const [state, setState] = React.useState({
+    filteredData: [],
+    query: emptyQuery,
+  })
 
-  // const handleInputChange = event => {
-  //   const query = event.target.value
+  const handleInputChange = event => {
+    const query = event.target.value
 
-  //   // this is how we get all of our posts
-  //   const posts = data.allMarkdownRemark.nodes || []
+    // this is how we get all of our posts
+    const posts = data.allMarkdownRemark.nodes || []
 
-  //   // return all filtered posts
-  //   const filteredData = posts.filter(post => {
-  //     // destructure data from post frontmatter
-  //     const { description, title, tags } = post.frontmatter
-  //     return (
-  //       // standardize data with .toLowerCase()
-  //       // return true if the description, title or tags
-  //       // contains the query string
-  //       description.toLowerCase().includes(query.toLowerCase()) ||
-  //       title.toLowerCase().includes(query.toLowerCase()) ||
-  //       (tags &&
-  //         tags
-  //           .join("") // convert tags from an array to string
-  //           .toLowerCase()
-  //           .includes(query.toLowerCase()))
-  //     )
-  //   })
+    // return all filtered posts
+    const filteredData = posts.filter(post => {
+      // destructure data from post frontmatter
+      const { description, title, tags } = post.frontmatter
+      return (
+        // standardize data with .toLowerCase()
+        // return true if the description, title or tags
+        // contains the query string
+        description.toLowerCase().includes(query.toLowerCase()) ||
+        title.toLowerCase().includes(query.toLowerCase()) ||
+        (tags &&
+          tags
+            .join("") // convert tags from an array to string
+            .toLowerCase()
+            .includes(query.toLowerCase()))
+      )
+    })
 
-  //   // update state according to the latest query and results
-  //   setState({
-  //     query, // with current query string from the `Input` event
-  //     filteredData, // with filtered data from posts.filter(post => (//filteredData)) above
-  //   })
-  // }
+    // update state according to the latest query and results
+    setState({
+      query, // with current query string from the `Input` event
+      filteredData, // with filtered data from posts.filter(post => (//filteredData)) above
+    })
+  }
 
-  // const { filteredData, query } = state
-  // const hasSearchResults = filteredData && query !== emptyQuery
-  // const filterPosts = hasSearchResults ? filteredData : posts
+  const { filteredData, query } = state
+  const hasSearchResults = filteredData && query !== emptyQuery
+  const filterPosts = hasSearchResults ? filteredData : posts
 
   return (
     <StyledCards id="story">
@@ -173,7 +173,7 @@ export default function BlogCards({ posts, location }) {
           Different stories and tips, guides on how to cope up depression
         </p>
       </div>
-      {/* <SearchStyled>
+      <SearchStyled>
         <div className="search-input">
           <Search size="20" />
           <input
@@ -182,9 +182,9 @@ export default function BlogCards({ posts, location }) {
             placeholder="Search article..."
           />
         </div>
-      </SearchStyled> */}
+      </SearchStyled>
       <div className="card-wrapper">
-        {posts.map(type => (
+        {filterPosts.map(type => (
           <Link
             to={type.fields.slug}
             itemProp="url"
@@ -205,14 +205,14 @@ export default function BlogCards({ posts, location }) {
           </Link>
         ))}
       </div>
-      <div className="button-explore">
-        <Link
-          to={`${location.pathname === "/" ? "/blog" : "/content"}`}
-          className="link"
-        >
-          Explore more...
-        </Link>
-      </div>
+
+      {location.pathname !== "/blog" && (
+        <div className="button-explore">
+          <Link to="/blog" className="link">
+            Explore more...
+          </Link>
+        </div>
+      )}
     </StyledCards>
   )
 }

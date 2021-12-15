@@ -1,23 +1,18 @@
 import * as React from "react"
-//import { AuthProvider } from "../context/AuthProvider"
-import Layout from "../components/layout"
-import { LandingPage, Statistics, Purpose, Contact } from "../components"
-import Seo from "../components/seo"
+import { AuthContext } from "../context/AuthProvider"
+import Login from "./login"
+import Home from "./home"
 import { graphql } from "gatsby"
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  //const siteTitle = data.site.siteMetadata?.title || `Title`
   //const posts = data.allMarkdownRemark.nodes
+  const context = React.useContext(AuthContext)
 
-  return (
-    <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
-      <LandingPage />
-      <Statistics />
-      <Purpose />
-      {/* <BlogCards posts={posts} data={data} location={location} /> */}
-      <Contact />
-    </Layout>
+  return JSON.stringify(context.authenticted) === `{}` ? (
+    <Login />
+  ) : (
+    <Home data={data} location={location} />
   )
 }
 

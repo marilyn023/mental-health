@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { BlogLanding, BlogCards } from "../components"
+import { AboutUsLanding, BlogCards } from "../components"
 
 //import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -20,22 +20,25 @@ import Seo from "../components/seo"
 //   )
 // }
 
-const Blog = ({ data, location }) => {
+const About = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const allPosts = data.allMarkdownRemark.nodes
+
+  const GRID_LIMIT = 6
+  const firstSix = allPosts.slice(1, GRID_LIMIT)
 
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
-      <BlogLanding />
+      <AboutUsLanding />
       <section id="articles">
-        <BlogCards posts={allPosts} data={data} location={location} />
+        <BlogCards posts={firstSix} data={data} location={location} />
       </section>
     </Layout>
   )
 }
 
-export default Blog
+export default About
 
 export const pageQuery = graphql`
   query {

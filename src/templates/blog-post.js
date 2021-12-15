@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
-import DashboardLayout from "../components/DashboardLayout"
+import Layout from "../components/layout"
 import Seo from "../components/seo"
 //import { Modal } from "../components"
 //import { Drawer } from "antd"
@@ -188,7 +188,7 @@ const BlogPostTemplate = ({ data, location }) => {
           </div>
         </Modal>
       )} */}
-      <DashboardLayout>
+      <Layout location={location} title={siteTitle}>
         <BlogPostStyled>
           {/* <Drawer
         visible={toggle}
@@ -302,7 +302,7 @@ const BlogPostTemplate = ({ data, location }) => {
             </nav>
           </article>
         </BlogPostStyled>
-      </DashboardLayout>
+      </Layout>
     </>
   )
 }

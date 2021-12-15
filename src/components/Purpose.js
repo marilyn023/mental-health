@@ -101,7 +101,7 @@ export default function Purpose() {
           their own testimony on how they cope up their situation
         </div>
         <div>
-          <LearnMore buttonName="Get started" url="/login" />
+          <LearnMore buttonName="explore" url="/blog" />
         </div>
       </div>
       <div className="w-full flex items-center flex-col md:flex-row justify-center gap-10 my-10 right-content">

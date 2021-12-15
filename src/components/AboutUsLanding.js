@@ -18,7 +18,8 @@ const LandingPageStyled = styled.section`
 
   .image-style {
     width: 50%;
-    display: block;
+    display: flex;
+    justify-content: center;
 
     @media (max-width: 1080px) {
       width: 100%;
@@ -41,7 +42,7 @@ const LandingPageStyled = styled.section`
 
     .sub-paragraph {
       color: rgba(0, 174, 164, 0.7);
-      max-width: 400px;
+      max-width: 600px;
       font-size: 16px;
 
       @media (max-width: 780px) {
@@ -54,14 +55,13 @@ const LandingPageStyled = styled.section`
       margin: 0;
       padding: 10px 0;
 
-      span {
+      p {
         font-size: 15px;
-        color: #ff871e;
       }
 
       h1 {
         max-width: 500px;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: bold;
         padding: 10px 0 0;
         margin: 0;
@@ -76,7 +76,6 @@ const LandingPageStyled = styled.section`
     }
 
     .buttons {
-      font-size: 14px;
       padding: 20px 0;
       display: flex;
       align-items: center;
@@ -88,11 +87,15 @@ const LandingPageStyled = styled.section`
       }
 
       .get-started {
+        cursor: pointer;
         text-decoration: none;
+        font-size: 15px;
         background: #ff871e;
-        padding: 10px 30px;
+        padding: 10px 40px;
         color: #fff;
         border-radius: 5px;
+        border: none;
+        outline: none;
 
         &:hover {
           background: rgba(255, 135, 30, 0.5);
@@ -100,7 +103,6 @@ const LandingPageStyled = styled.section`
       }
 
       .explore {
-        text-decoration: none;
         color: #ff871e;
         padding: 10px 30px;
         border-radius: 5px;
@@ -115,38 +117,56 @@ const LandingPageStyled = styled.section`
   }
 `
 
-export default function LandingPage() {
+export default function AboutUsLanding() {
+  const contact = event => {
+    event.preventDefault()
+    const email = "marilyn.simbajon@students.isatu.edu.ph"
+    window.open(
+      `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${email}&tf=1`,
+      `_blank`
+    )
+  }
+
   return (
     <LandingPageStyled>
-      <header>
-        <div className="title">
-          <span>#1 Meditation App</span>
-          <h1>Calm yourself down, everything will come into place</h1>
-        </div>
-        <div className="sub-paragraph">
-          <span>
-            This website is built to assist your mental health by just giving
-            tips and guides while listening to calming music that we provide
-          </span>
-        </div>
-        <div className="buttons">
-          <Link to="/blog" className="get-started">
-            Explore Articles
-          </Link>
-          {/* <Link to="/blog" className="explore">
-            Explore
-          </Link> */}
-        </div>
-      </header>
       <div className="image-style">
         <StaticImage
           layout="fixed"
           formats={["auto", "webp", "avif"]}
-          src="../images/Landing-page.svg"
+          src="../images/About-us.svg"
           quality={95}
           alt=""
         />
       </div>
+      <header>
+        <div className="title">
+          <h1>About us</h1>
+        </div>
+        <div className="sub-paragraph">
+          <p>
+            We all know someone with a mental health problem can see how lives
+            would improved with better treatment and support and less stigma.
+            Mental health research saves lives, relives significant distress and
+            improves quality of life. It also benefits the whole of our society
+            be generating social and economic benefits that contribute to
+            thriving communities built upon resilience, reduced levels of mental
+            ill-health and less stigma and discrimination.
+          </p>
+          <p>
+            The purpose of this research is to help thos students to overcome
+            those stress and any other mental health issues. Especially during
+            this pandemic and still have to attend classes which is online. This
+            situation leads to a more stressful wa of learning than face-to-face
+            learning. This study can provide awareness to students who struggle
+            in different aspects of mental health issues.
+          </p>
+        </div>
+        <div className="buttons">
+          <button onClick={contact} className="get-started">
+            Lets talk
+          </button>
+        </div>
+      </header>
     </LandingPageStyled>
   )
 }

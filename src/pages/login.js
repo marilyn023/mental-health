@@ -28,6 +28,7 @@ const LoginStyled = styled.section`
 
       header {
         color: #fff;
+        max-width: 700px;
         span {
           font-size: 50px;
           font-weight: bold;
@@ -258,7 +259,7 @@ const Login = () => {
         >
           <div className="content">
             <header>
-              <span>ISAT U Mental Health Website</span>
+              <span>ISAT U Online Forum and Mental Health Tips System</span>
               <p>
                 any change, even a change for the better, is always accompined
                 by discomfort
