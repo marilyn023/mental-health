@@ -184,7 +184,7 @@ export default function BlogCards({ data, location, posts }) {
         </div>
       </SearchStyled>
       <div className="card-wrapper">
-        {filterPosts.map(type => (
+        {filterPosts?.map(type => (
           <Link
             to={type.fields.slug}
             itemProp="url"

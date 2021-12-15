@@ -97,11 +97,11 @@ const DashboardStyled = styled.section`
 
 const Home = ({ data, location }) => {
   const allPosts = data?.allMarkdownRemark.nodes
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = data?.site.siteMetadata?.title || `Title`
   //const posts = data.allMarkdownRemark.nodes
 
   const GRID_LIMIT = 6
-  const firstSix = allPosts.slice(1, GRID_LIMIT)
+  const firstSix = allPosts?.slice(1, GRID_LIMIT)
 
   // //console.log(allPosts)
 
